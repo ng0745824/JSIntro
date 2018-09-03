@@ -29,3 +29,8 @@ console.log(num1 + " / " + num2 + " = " + result);
 console.log(4 + 5); //prediction: number 9
 console.log("4 + 5"); //prediction: string 4 + 5
 console.log("4" + "5"); //prediction: string 45
+
+//Write a program that asks for a temperature in Celsius degrees, then displays it in Fahrenheit degrees.
+let tempInCelsius = 32;
+let tempInFahrenheit = tempInCelsius * 9/5 + 32;
+console.log(tempInCelsius + " degrees celsius converts to " + tempInFahrenheit + " degrees fahrenheit.");
